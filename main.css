@@ -1,0 +1,10 @@
+html, body{  
+    height: 100%;
+}
+
+body {
+	position: block;
+    background: url("pikachu-come-back-later.jpg") no-repeat center center;
+    background-size: auto;
+    text-align: center;
+}
