@@ -1,0 +1,21 @@
+html, body{  
+    height: 100%;
+}
+
+body {
+    position: block;
+    background: url("/images/bugadur-pikachu.jpg") no-repeat center center;
+    background-size: auto;
+    text-align: center;
+    margin: 0px;
+}
+
+.locations-map {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    position: absolute;
+    float: none;
+}
