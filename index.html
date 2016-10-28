@@ -2,15 +2,21 @@
 <html lang="is">
 <head>
   <meta charset="utf-8">
-  <title>Íslenskir Pokémon Þjálfarar</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <title>Íslenskir Pokémon Þjálfarar | pokego.is</title>
+  <meta name="description" content="Info for Pokémon Go players in Iceland.">
+  <meta name="keywords" content="Pokémon Gyms in Iceland,Pokémon,Pokémon Go,Pokémon Go in Iceland,Íslenskir Pokémon Þjálfarar">
+  <meta name="author" content="Sveinn Flóki Guðmundsson">
+  <meta property="og:title" content="pokego.is" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://pokego.is/" />
+  <meta property="og:image" content="http://pokego.is/images/pokego-is.png" />
   <link href="/css/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <div class="col-lg-6 locations-map" id="mapElement">
+  <div class="col-lg-6 pokemap" id="mapElement">
     <p>Loading map ..</p>
   </div>
+  <script src="node_modules/whatwg-fetch/fetch.js"></script>
   <script src="node_modules/google-maps/lib/Google.min.js"></script>
   <script src="js/pokego-is-map.js"></script>
 </body>

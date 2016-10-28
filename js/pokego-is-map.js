@@ -39,7 +39,7 @@ var promiseLoadGyms = fetch("/data/gyms.json").then(
     }
 ).catch(
     function(err) {
-        console.error("Failed to load gyms.")
+        console.error("Failed to load gyms.\n" + err)
     }
 );
 
@@ -56,7 +56,7 @@ var promiseLoadPokestops = fetch("/data/pokestops.json").then(
     }
 ).catch(
     function(err) {
-        console.error("Failed to load pokestops.")
+        console.error("Failed to load pokestops.\n" + err)
     }
 );
 
